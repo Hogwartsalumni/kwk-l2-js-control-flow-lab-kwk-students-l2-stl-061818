@@ -14,7 +14,7 @@ function ternaryCheckCity(place) {
 }
 
 function switchOnCharmFromTip(response) {
-  switch (new response.getResponse()) {
+  switch (response) {
     case 'generous':
        return 'Thank you so much';
     case 'not as generous':
